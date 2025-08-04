@@ -44,7 +44,7 @@ A interface está dividida em três seções principais:
 
 ```bash
 git clone https://github.com/nicolasandreos/Mysql-TKinter
-cd IntegracaoPythonBD
+cd Mysql-TKinter
 ````
 
 2. Instale os pacotes necessários:
