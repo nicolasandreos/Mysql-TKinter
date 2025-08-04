@@ -103,6 +103,3 @@ O sistema abrirá em **tela cheia**, com atalhos de segurança:
 Este projeto está sob a licença MIT.
 Sinta-se livre para modificar, compartilhar ou utilizar em seus próprios projetos!
 
-
-Se quiser, posso gerar esse `README.md` como arquivo real ou te ajudar a tirar o print da tela e salvar como `screenshot.png`. Deseja isso?
-```
