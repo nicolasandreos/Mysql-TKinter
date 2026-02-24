@@ -1,66 +1,73 @@
-# 🎓 Sistema de Gerenciamento de Estudantes, Cursos e Matrículas
+# 🎓 Student, Course & Enrollment Management System
 
-Uma interface gráfica moderna desenvolvida com **Python + CustomTkinter + ttkbootstrap**, conectada a um banco de dados **MySQL**, que permite cadastrar, visualizar e gerenciar alunos, cursos e matrículas em tempo real.
-
-![Imagem do sistema](./IntegracaoPythonBD/fotos/projeto.png)
+A modern desktop interface built with **Python + CustomTkinter + ttkbootstrap**, connected to a **MySQL** database, allowing users to register, view, and manage students, courses, and enrollments in real time.
 
 ---
 
-## 🚀 Funcionalidades
+## 🚀 Features
 
-✅ Adicionar estudantes com nome, e-mail e data de nascimento  
-✅ Cadastrar novos cursos com preço  
-✅ Matricular alunos em cursos  
-✅ Atualização em tempo real dos contadores de alunos, cursos e matrículas  
-✅ Conexão com banco de dados MySQL  
-✅ Interface visual moderna, com popups centralizados e interativos  
-
----
-
-## 🖼️ Interface do Sistema
-
-A interface está dividida em três seções principais:
-
-- **Ações rápidas** (botões para adicionar aluno, curso ou matrícula)
-- **Dashboard de visão geral** com contagem atualizada
-- **Popups com formulários modernos para entrada de dados**
-- 
+✅ Add students with name, email, and birth date  
+✅ Create new courses with pricing  
+✅ Enroll students in courses  
+✅ Real-time dashboard counters (students, courses, enrollments)  
+✅ MySQL database integration  
+✅ Modern UI with centered, interactive popups  
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🖼️ System Interface
+
+The interface is divided into three main sections:
+
+- **Quick Actions** (buttons to add students, courses, or enrollments)
+- **Overview Dashboard** with live counters
+- **Modern popup forms** for structured data input
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Main Dashboard
+![Dashboard](./IntegracaoPythonBD/fotos/projeto.png)
+
+> 📌 You can add more screenshots inside the `fotos/` folder and reference them here.
+
+---
+
+## 🛠️ Technologies Used
 
 - Python 3.10+
-- [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
-- [ttkbootstrap](https://github.com/israel-dryer/ttkbootstrap)
-- MySQL (com ODBC)
+- CustomTkinter
+- ttkbootstrap
+- MySQL (via ODBC)
 - pyodbc
 
 ---
 
-## 📦 Instalação
+## 📦 Installation
 
-1. Clone o repositório:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/nicolasandreos/Mysql-TKinter
 cd Mysql-TKinter
-````
+```
 
-2. Instale os pacotes necessários:
+2. Install the required packages:
 
 ```bash
 pip install customtkinter ttkbootstrap pyodbc
 ```
 
-3. Certifique-se de ter o driver ODBC instalado:
-   👉 `MySQL ODBC 9.4 Unicode Driver` (ou adapte no `DADOS_CONEXAO`)
+3. Make sure you have the ODBC driver installed:  
+   👉 `MySQL ODBC 9.4 Unicode Driver`  
+   (Or update the `DADOS_CONEXAO` configuration accordingly.)
 
 ---
 
-## 🔌 Banco de Dados
+## 🔌 Database Setup
 
-A aplicação utiliza um banco MySQL chamado `db_exemplo` com as seguintes tabelas:
+The application uses a MySQL database called `db_exemplo` with the following tables:
 
 ```sql
 CREATE TABLE alunos (
@@ -86,20 +93,31 @@ CREATE TABLE matriculas (
 
 ---
 
-## ▶️ Como Executar
+## ▶️ How to Run
 
 ```bash
 python interface.py
 ```
 
-O sistema abrirá em **tela cheia**, com atalhos de segurança:
+The system will open in **fullscreen mode**, with safety shortcuts:
 
-* Pressione `Esc` para sair do programa
+- Press `Esc` to exit the application
 
 ---
 
-## 📄 Licença
+## 🎯 Learning Objectives
 
-Este projeto está sob a licença MIT.
-Sinta-se livre para modificar, compartilhar ou utilizar em seus próprios projetos!
+This project was developed to practice:
 
+- Desktop GUI development with Python
+- Database integration using ODBC
+- CRUD operations with MySQL
+- Real-time UI updates
+- Clean UI architecture and user experience
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.  
+Feel free to modify, share, or use it in your own projects.
